@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS USER;
+  
+CREATE TABLE USER (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(250) NOT NULL,
+  age INT NOT NULL
+);
+
+INSERT into USER (id,name,age) values (1,'Priya',12); 
